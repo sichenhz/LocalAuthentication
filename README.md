@@ -1,6 +1,6 @@
 # LocalAuthentication
 指纹验证接口demo
-需导入头文件<LocalAuthentication/LocalAuthentication.h>, 核心代码如下:
+导入头文件LocalAuthentication/LocalAuthentication.h, 核心代码如下:
 
     LAContext *context = [[LAContext alloc] init];
     NSError *error = nil;
