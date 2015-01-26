@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		25EB159F1A75DEC50077009C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB159E1A75DEC50077009C /* main.m */; };
+		25EB15A21A75DEC50077009C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB15A11A75DEC50077009C /* AppDelegate.m */; };
+		25EB15A51A75DEC50077009C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB15A41A75DEC50077009C /* ViewController.m */; };
+		25EB15A81A75DEC50077009C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EB15A61A75DEC50077009C /* Main.storyboard */; };
+		25EB15AA1A75DEC50077009C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EB15A91A75DEC50077009C /* Images.xcassets */; };
+		25EB15AD1A75DEC50077009C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB15AB1A75DEC50077009C /* LaunchScreen.xib */; };
+		25EB15B91A75DEC50077009C /* LocalAuthenticationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB15B81A75DEC50077009C /* LocalAuthenticationTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25EB15B31A75DEC50077009C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25EB15911A75DEC50077009C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25EB15981A75DEC50077009C;
+			remoteInfo = LocalAuthentication;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25EB15991A75DEC50077009C /* LocalAuthentication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LocalAuthentication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EB159D1A75DEC50077009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EB159E1A75DEC50077009C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		25EB15A01A75DEC50077009C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25EB15A11A75DEC50077009C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25EB15A31A75DEC50077009C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		25EB15A41A75DEC50077009C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		25EB15A71A75DEC50077009C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25EB15A91A75DEC50077009C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25EB15AC1A75DEC50077009C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		25EB15B21A75DEC50077009C /* LocalAuthenticationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocalAuthenticationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		25EB15B71A75DEC50077009C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EB15B81A75DEC50077009C /* LocalAuthenticationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocalAuthenticationTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25EB15961A75DEC50077009C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EB15AF1A75DEC50077009C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25EB15901A75DEC50077009C = {
+			isa = PBXGroup;
+			children = (
+				25EB159B1A75DEC50077009C /* LocalAuthentication */,
+				25EB15B51A75DEC50077009C /* LocalAuthenticationTests */,
+				25EB159A1A75DEC50077009C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25EB159A1A75DEC50077009C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25EB15991A75DEC50077009C /* LocalAuthentication.app */,
+				25EB15B21A75DEC50077009C /* LocalAuthenticationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25EB159B1A75DEC50077009C /* LocalAuthentication */ = {
+			isa = PBXGroup;
+			children = (
+				25EB15A01A75DEC50077009C /* AppDelegate.h */,
+				25EB15A11A75DEC50077009C /* AppDelegate.m */,
+				25EB15A31A75DEC50077009C /* ViewController.h */,
+				25EB15A41A75DEC50077009C /* ViewController.m */,
+				25EB15A61A75DEC50077009C /* Main.storyboard */,
+				25EB15A91A75DEC50077009C /* Images.xcassets */,
+				25EB15AB1A75DEC50077009C /* LaunchScreen.xib */,
+				25EB159C1A75DEC50077009C /* Supporting Files */,
+			);
+			path = LocalAuthentication;
+			sourceTree = "<group>";
+		};
+		25EB159C1A75DEC50077009C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EB159D1A75DEC50077009C /* Info.plist */,
+				25EB159E1A75DEC50077009C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25EB15B51A75DEC50077009C /* LocalAuthenticationTests */ = {
+			isa = PBXGroup;
+			children = (
+				25EB15B81A75DEC50077009C /* LocalAuthenticationTests.m */,
+				25EB15B61A75DEC50077009C /* Supporting Files */,
+			);
+			path = LocalAuthenticationTests;
+			sourceTree = "<group>";
+		};
+		25EB15B61A75DEC50077009C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25EB15B71A75DEC50077009C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25EB15981A75DEC50077009C /* LocalAuthentication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EB15BC1A75DEC50077009C /* Build configuration list for PBXNativeTarget "LocalAuthentication" */;
+			buildPhases = (
+				25EB15951A75DEC50077009C /* Sources */,
+				25EB15961A75DEC50077009C /* Frameworks */,
+				25EB15971A75DEC50077009C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LocalAuthentication;
+			productName = LocalAuthentication;
+			productReference = 25EB15991A75DEC50077009C /* LocalAuthentication.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25EB15B11A75DEC50077009C /* LocalAuthenticationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25EB15BF1A75DEC50077009C /* Build configuration list for PBXNativeTarget "LocalAuthenticationTests" */;
+			buildPhases = (
+				25EB15AE1A75DEC50077009C /* Sources */,
+				25EB15AF1A75DEC50077009C /* Frameworks */,
+				25EB15B01A75DEC50077009C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25EB15B41A75DEC50077009C /* PBXTargetDependency */,
+			);
+			name = LocalAuthenticationTests;
+			productName = LocalAuthenticationTests;
+			productReference = 25EB15B21A75DEC50077009C /* LocalAuthenticationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25EB15911A75DEC50077009C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = meilishuo;
+				TargetAttributes = {
+					25EB15981A75DEC50077009C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					25EB15B11A75DEC50077009C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 25EB15981A75DEC50077009C;
+					};
+				};
+			};
+			buildConfigurationList = 25EB15941A75DEC50077009C /* Build configuration list for PBXProject "LocalAuthentication" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25EB15901A75DEC50077009C;
+			productRefGroup = 25EB159A1A75DEC50077009C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25EB15981A75DEC50077009C /* LocalAuthentication */,
+				25EB15B11A75DEC50077009C /* LocalAuthenticationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25EB15971A75DEC50077009C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EB15A81A75DEC50077009C /* Main.storyboard in Resources */,
+				25EB15AD1A75DEC50077009C /* LaunchScreen.xib in Resources */,
+				25EB15AA1A75DEC50077009C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EB15B01A75DEC50077009C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25EB15951A75DEC50077009C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EB15A51A75DEC50077009C /* ViewController.m in Sources */,
+				25EB15A21A75DEC50077009C /* AppDelegate.m in Sources */,
+				25EB159F1A75DEC50077009C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25EB15AE1A75DEC50077009C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25EB15B91A75DEC50077009C /* LocalAuthenticationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25EB15B41A75DEC50077009C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25EB15981A75DEC50077009C /* LocalAuthentication */;
+			targetProxy = 25EB15B31A75DEC50077009C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25EB15A61A75DEC50077009C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EB15A71A75DEC50077009C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25EB15AB1A75DEC50077009C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25EB15AC1A75DEC50077009C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25EB15BA1A75DEC50077009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25EB15BB1A75DEC50077009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25EB15BD1A75DEC50077009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: SICHEN WANG (235854M2QE)";
+				INFOPLIST_FILE = LocalAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		25EB15BE1A75DEC50077009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: SICHEN WANG (235854M2QE)";
+				INFOPLIST_FILE = LocalAuthentication/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		25EB15C01A75DEC50077009C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LocalAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalAuthentication.app/LocalAuthentication";
+			};
+			name = Debug;
+		};
+		25EB15C11A75DEC50077009C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LocalAuthenticationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LocalAuthentication.app/LocalAuthentication";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25EB15941A75DEC50077009C /* Build configuration list for PBXProject "LocalAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EB15BA1A75DEC50077009C /* Debug */,
+				25EB15BB1A75DEC50077009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25EB15BC1A75DEC50077009C /* Build configuration list for PBXNativeTarget "LocalAuthentication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EB15BD1A75DEC50077009C /* Debug */,
+				25EB15BE1A75DEC50077009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		25EB15BF1A75DEC50077009C /* Build configuration list for PBXNativeTarget "LocalAuthenticationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25EB15C01A75DEC50077009C /* Debug */,
+				25EB15C11A75DEC50077009C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25EB15911A75DEC50077009C /* Project object */;
+}
