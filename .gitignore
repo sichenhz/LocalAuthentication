@@ -1,6 +1,7 @@
-
-LocalAuthentication.xcodeproj/project.xcworkspace/xcshareddata/LocalAuthentication.xccheckout
-
-LocalAuthentication.xcodeproj/project.xcworkspace/xcuserdata/MLS.xcuserdatad/UserInterfaceState.xcuserstate
-
-LocalAuthentication.xcodeproj/project.xcworkspace/xcuserdata/MLS.xcuserdatad/UserInterfaceState.xcuserstate
+project.xcworkspace
+xcuserdata
+*.xccheckout
+config.plist
+*.swp
+.DS_Store
+Build
